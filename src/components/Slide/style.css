@@ -1,0 +1,35 @@
+.slide .box {
+  display: flex !important;
+}
+.slide .img {
+  width: 350px;
+  height: 350px;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.slide .text {
+  width: 50%;
+  padding: 60px 0 70px 30px;
+}
+
+.slick-dots li button::before {
+  font-size: 50px;
+}
+/*
+.slick-dots li.slick-active button:before {
+  color: black !important;
+}
+*/
+/*----------card two----*/
+.CardTwo.slide .box:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.CardTwo.slide .img {
+  padding: 10px;
+}
+.CardTwo.slide .img img:hover {
+  transform: none;
+}
+/*----------card two----*/

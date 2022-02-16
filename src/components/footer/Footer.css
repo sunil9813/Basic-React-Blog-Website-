@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+footer i {
+  margin-left: 20px;
+}
